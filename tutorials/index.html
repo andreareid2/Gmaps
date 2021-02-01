@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Learning with Google Maps Platform</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgdS9-ve8UZGKwEWncCvyCFeBj9fjfzNY&callback=initMap" type="text/javascript" defer></script>
+
+<script src="index.js"></script>
+
+</head>
+
+<body>
+
+<h1>Learning with Google Maps Platform</h1>
+
+<div class="shark">
+<p class="credit">Hermanus Backpackers, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons</p>
+<img src="shark.jpg" alt="GreatWhiteShark" width="909px" height="603px">
+</div>
+
+<h3>MyMaps Shark Sightings</h3>
+<p>Created in Google MyMaps, this interactive map highlights shark sightings in South Africa, as well as beach locations where shark sighters are stationed.</p>
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qfVmDWKwRpsgx4rlUJKqQPNu4ro8DXYp" width="640" height="480"></iframe>
+
+<h3>Javascript API</h3>
+<p>Centered on False Bay with marker placed at Cape Town center.</p>
+<div id="map"></div>
+
+<h3>Directions API</h3>
+<p>Directions from Cape Town to the shark sighting starter town of Noordhoek.</p>
+<a href="https://maps.googleapis.com/maps/api/directions/json?
+origin=place_id:ChIJ1-4miA9QzB0Rh6ooKPzhf2g&destination=place_id:ChIJH8utEc1rzB0RmedAi7_MgEw&departure_time=now
+&key=AIzaSyAgdS9-ve8UZGKwEWncCvyCFeBj9fjfzNY">Click here for JSON response</a>
+
+<h3>Places API</h3>
+<p>Place information for the shark beach Muizenberg.</p>
+<a href="https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJK0_pHVZAzB0RqcyfKL4LfEs&fields=name,rating,review&key=AIzaSyAgdS9-ve8UZGKwEWncCvyCFeBj9fjfzNY">Click here for JSON response</a>
+
+
+</body>
+</html>

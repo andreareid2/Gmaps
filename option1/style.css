@@ -1,0 +1,53 @@
+/* adapted from google maps platform tutorial 
+https://developers.google.com/maps/documentation/javascript/adding-a-google-map */
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-image: url("Calanda5crop.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	margin: 0px;
+	padding-top: 100px;
+	width: 100%;
+	min-height: 300px;
+}
+
+.subtitle {
+	font-style: italic;
+    font-weight: normal;
+}
+
+h1 {
+	margin-top: 0px;
+}
+
+h2 {
+	color: gray;
+	border-bottom-style: solid;
+	border-bottom-color: #6666662e;
+	border-bottom-width: thin;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	width: 30%;
+}
+
+.myprojects {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#map {
+  height: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
