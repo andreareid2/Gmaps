@@ -351,7 +351,7 @@ function initMap() {
 
   // Add a marker clusterer to manage the markers.
   var markerCluster = new MarkerClusterer(map, markers, {
-    imagePath: 'http://andreareid2.github.io/Gmaps/option1/markers/m'
+    imagePath: 'http://andreareid2.github.io/Gmaps/option1/m/m'
   });
 
 }
