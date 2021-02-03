@@ -2,6 +2,7 @@
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map */
 
 html, body {
+	background-color: black;
 	height: 100%;
 	margin: 0px;
 	text-align: center;
@@ -25,14 +26,18 @@ header {
     font-weight: normal;
 }
 
+p {
+	color: #d4e2e9;
+}
+
 h1 {
 	margin-top: 0px;
 }
 
 h2 {
-	color: gray;
+	color: #d4e2e9;
 	border-bottom-style: solid;
-	border-bottom-color: #6666662e;
+	border-bottom-color: gray;
 	border-bottom-width: thin;
 	padding-bottom: 15px;
 	margin-top: 15px;
@@ -44,6 +49,7 @@ h2 {
 	margin-top: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-bottom: 50px;
 }
 
 #map {
