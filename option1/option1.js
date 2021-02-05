@@ -357,17 +357,29 @@ function initMap() {
 }
 
 const locations = [
-{lat: -1.0847935160768962, lng: -77.61696248483315, info: "Jatun Sacha: Nature Conservation in the Amazon"},
-{lat: 28.127651164452747, lng: -15.436184568581691, info: "Las Palmas de Gran Canaria: Conservation Genetics of a Rare plant species"},
-{lat: 49.380521819197085, lng: -82.40328578619902, info: "Kapuskasing Site: Effects of Forestry on Biodiversity"},
-{lat: 48.38293999952049, lng: -89.23475757259328, info: "Thunder Bay Site: Effects of Forestry on Biodiversity"},
-{lat: 49.780394206044974, lng: -94.49326499452869, info: "Kenora Site: Effects of Forestry on Biodiversity"},
-{lat: 50.11822684893797, lng: -91.95627844489808, info: "Sioux Lookout Site: Effects of Forestry on Biodiversity"},
-{lat: 45.8983357422639, lng: -77.25445615678267, info: "Petawawa Site: Effects of Forestry on Biodiversity"},
-{lat: 46.88328029017429, lng: 9.482322801935783, info: "Calanda Mountain: Climate Change and Species Distributions"},
-{lat: 46.92771997744363, lng: 9.5364336241691, info: "Untervaz: Common Garden Site for Invasive Solidago canadensis"},
-{lat: 47.449879991658534, lng: 8.683584179490559, info: "ETH Eschikon: Greenhouse Biodiversity Experiments"},
-{lat: 46.195434084976625, lng: 9.019779761907323, info: "Bellinzona Office for the WWF European Alpine Programme"},
-{lat: -17.739715524440804, lng: 177.1511685460128, info: "Coral Cay Conservation: Mamanuca Islands Base"},
-{lat: -16.786967881751423, lng: 177.5032288832807, info: "Coral Cay Conservation: Yasawa Islands Base"}
+{lat: -1.0847935160768962, lng: -77.61696248483315, info: "<img src='images/JatunSacha.jpg' height='200px' width='300px'><h3 class='infoWin'>Jatun Sacha, Ecuador</h3><p class='infoWin'>Nature Conservation in the Amazon</p>"
+},
+{lat: 28.127651164452747, lng: -15.436184568581691, info: "<img src='images/Gran_Canaria.jpg' height='200px' width='300px'><h3 class='infoWin'>Las Palmas de Gran Canaria</h3><p class='infoWin'>Conservation Genetics of a Rare plant species</p>"
+},
+{lat: 49.380521819197085, lng: -82.40328578619902, info: "<img src='images/forest.jpg' height='200px' width='250px'><h3 class='infoWin'>Kapuskasing Site</h3><p class='infoWin'>Effects of Forestry on Biodiversity</p>"},
+{lat: 48.38293999952049, lng: -89.23475757259328, info: "<img src='images/forest.jpg' height='200px' width='250px'><h3 class='infoWin'>Thunder Bay Site</h3><p class='infoWin'>Effects of Forestry on Biodiversity</p>"},
+{lat: 49.780394206044974, lng: -94.49326499452869, info: "<img src='images/forest.jpg' height='200px' width='250px'><h3 class='infoWin'>Kenora Site</h3><p class='infoWin'>Effects of Forestry on Biodiversity</p>"},
+{lat: 50.11822684893797, lng: -91.95627844489808, info: "<img src='images/forest.jpg' height='200px' width='250px'><h3 class='infoWin'>Sioux Lookout Site</h3><p class='infoWin'>Effects of Forestry on Biodiversity</p>"},
+{lat: 45.8983357422639, lng: -77.25445615678267, info:
+"<img src='images/forest.jpg' height='200px' width='250px'><h3 class='infoWin'>Petawawa Site</h3><p class='infoWin'>Effects of Forestry on Biodiversity</p>"
+},
+{lat: 46.88328029017429, lng: 9.482322801935783, info:
+"<img src='images/calanda.jpg' height='200px' width='300px'><h3 class='infoWin'>Calanda Mountain, Graubuenden</h3><p class='infoWin'>Effect of Climate Change on Species Distributions</p>"
+},
+{lat: 46.92771997744363, lng: 9.5364336241691, info: 
+"<img src='images/untervaz.jpg' height='200px' width='300px'><h3 class='infoWin'>Untervaz, Graubuenden</h3><p class='infoWin'>Common Garden Site for Invasive Solidago canadensis</p>"
+},
+{lat: 47.449879991658534, lng: 8.683584179490559, info: 
+"<img src='images/alps.jpg' height='200px' width='300px'><h3 class='infoWin'>ETH Zurich - Eschikon</h3><p class='infoWin'>Greenhouse biodiversity experiments and genetic diversity analyses.</p>"
+},
+{lat: 46.195434084976625, lng: 9.019779761907323, info: "<img src='images/ealp.jpg' height='200px' width='300px'><h3 class='infoWin'>WWF European Alpine Programme</h3><p class='infoWin'>Collaborative conservation initiatives across four Alpine countries</p>"},
+{lat: -17.739715524440804, lng: 177.1511685460128, info: 
+"<img src='images/fiji_mamanucas.jpg' height='200px' width='300px'><h3 class='infoWin'>Coral Cay Conservation</h3><p class='infoWin'>Coral reef surveying in the Mamanuca Islands</p>"
+},
+{lat: -16.786967881751423, lng: 177.5032288832807, info:"<img src='images/fiji_mamanucas.jpg' height='200px' width='300px'><h3 class='infoWin'>Coral Cay Conservation</h3><p class='infoWin'>Coral reef surveying in the Yasawa Islands</p>"}
 ];

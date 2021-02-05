@@ -21,35 +21,51 @@ header {
 	min-height: 300px;
 }
 
-.subtitle {
-	font-style: italic;
-    font-weight: normal;
-}
-
 p {
 	color: #d4e2e9;
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: left;
+}
+
+p.infoWin {
+	color: #0f364a;
+	width: 300px;
+	text-align: center;
 }
 
 h1 {
 	margin-top: 0px;
 }
 
-h2 {
+h3.infoWin {
+	color: #0f364a;
+    font-size: 20px;
+	text-align: center;
+}
+
+h3.subtitle {
+	color: white;
+	font-style: italic;
+    font-weight: normal;
+}
+
+h2.myprojects {
 	color: #d4e2e9;
 	border-bottom-style: solid;
 	border-bottom-color: gray;
 	border-bottom-width: thin;
 	padding-bottom: 15px;
 	margin-top: 15px;
-	width: 30%;
+	width: 80%;
+	text-align: center;
 }
 
 .myprojects {
-	text-align: left;
 	margin-top: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 #map {
